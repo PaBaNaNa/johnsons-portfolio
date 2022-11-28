@@ -1,0 +1,83 @@
+---
+layout: "../../components/Post.astro"
+title: Kharkiv the Perfect World of Citizen
+description: "React, Babylon JS"
+pubDate: 2021-12-28
+length: 2 mins
+tag: Development
+heroImage: "/images/posts/kharkiv/kharkiv_3d.png"
+heroClasses: "md:rounded-3xl shadow-md"
+categorySlug: "development"
+---
+
+### Project Description
+
+[Kharkiv](https://en.wikipedia.org/wiki/Kharkiv) is a second major city in Ukraine, while major city known as Kyiv (基輔). Our Mission is plan for the method of future reconstruction based on every Kharkiv residents' "Perfect World".
+
+In order to create this project, our team came up with a "Collarboration" solution for residents to build their city image, this is available on both 2D & 3D.
+
+<img
+  src="/images/posts/kharkiv/meeting.png"
+  alt="Karlby Countertop"
+  width={820}
+  height={350}
+/>
+
+### My work
+
+In this project, I mainly work on 3D frontend part, this is very chanllenging for me because I have to blend Babylon with Redux so that the status can be updated globally.
+
+My strategy was using [babylon-hook](https://github.com/brianzinn/babylonjs-hook) for connect React with Babylon. Instead of using a [components method](https://github.com/brianzinn/react-babylonjs), which I saw people using in [React Three JS combination](https://github.com/pmndrs/react-three-fiber)
+
+<img
+  src="/images/posts/kharkiv/kharkiv_light.png"
+  alt="Karlby Countertop"
+  width={820}
+  height={350}
+/>
+
+### Built With
+
+Since this project is aiming to be a collaboration tool, real time communication is required. In addition, state management is a huge chanllenge for how to transit between the system (backend, 2D frontend, 3D frontend etc.)
+
+Below I listed a series of technology used in development:
+
+- Frontend
+
+  - React JS (A base architecture of our frontend site)
+  - Redux (State management)
+  - Redux Saga (Asynchronous action for exchange data between socket server)
+  - Babylon JS (3D collaboration logic)
+  - React Babylon hook
+  - DeckGL (2D collaboration logic)
+  - DeckGL react
+  - Mapbox (Rendering 2D real world map layer)
+
+- Backend
+
+  - Colyseus JS (A websocket backend framework for real time connection)
+  - Django (For file storage eg. dot geojson files and dot glb files)
+
+- Other
+  - MySQL (Store the changed Geo)
+  - Docker (Mainly building a backend service containers)
+  - Socket middleware
+  - Typescript
+  - Git
+  - Jira
+  - Figma (UI/UX Design Idea from design team)
+  - Rendition (Convert Figma Draft to "Styled Components" in React so that we can focus working on function instead of UI styling)
+
+### What I Gained
+
+sumit, opensource, future
+
+<img
+  title="final result"
+  src="/images/posts/kharkiv/kharkiv_2D.png"
+  alt="Karlby Countertop"
+  width={820}
+  height={350}
+/>
+
+### Acknowledgments

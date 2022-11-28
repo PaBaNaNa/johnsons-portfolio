@@ -1,0 +1,38 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+import { SITE_TITLE } from "../config";
+import GitHubIcon from "./icons/GitHubIcon.astro";
+import clsx from "clsx";
+export interface Props {
+  themeColor?: string;
+}
+const props = Astro.props;
+---
+
+<header
+  class={clsx("flex items-center justify-between px-4 py-2 place-items-start")}
+  style={`background-color: ${props.themeColor || "white"}`}
+>
+  <h2 class="m-0">
+    <a href="/" class="flex items-center">
+      <img
+        src="/images/johnson.jpg"
+        alt="johnson"
+        class="mr-4 h-[40px] w-auto rounded-full
+
+"
+      />
+      <span class="font-extrabold text-2xl">{SITE_TITLE}</span>
+    </a>
+  </h2>
+  <div>
+    <a href="#menu" class="block sm:hidden">Menu</a>
+    <nav class="hidden sm:flex space-x-4">
+      <HeaderLink href="/">Home</HeaderLink>      
+      <HeaderLink href="/about">About</HeaderLink>      
+      <HeaderLink href="https://github.com/johnsonafool" target="_blank"
+        ><GitHubIcon class="w-6" />
+      </HeaderLink>
+    </nav>
+  </div>
+</header>
