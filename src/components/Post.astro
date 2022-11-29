@@ -1,7 +1,5 @@
 ---
-import CalltoAction from "../components/CallToAction.jsx";
 import clsx from "clsx";
-import Categories from "../components/Categories.astro";
 import { categories, Category } from "../models/Category.astro";
 import Layout from "./Layout.astro";
 
@@ -119,7 +117,4 @@ const category = categories.find(
       <slot />
     </article>
   </main>
-
-  <Categories />
-  <CalltoAction client:visible />
 </Layout>

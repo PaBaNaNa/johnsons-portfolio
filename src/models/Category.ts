@@ -1,9 +1,6 @@
 import {
   DevelopmentIcon,
-  DotfilesIcon,
   PersonalDevelopmentIcon,
-  ProductivityIcon,
-  UsesIcon,
 } from "../components/icons/index.astro";
 
 export interface Category {
