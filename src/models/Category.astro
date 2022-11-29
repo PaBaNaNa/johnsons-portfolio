@@ -1,10 +1,7 @@
 ---
 import {
   DevelopmentIcon,
-  DotfilesIcon,
   PersonalDevelopmentIcon,
-  ProductivityIcon,
-  UsesIcon,
 } from "../components/icons/index.astro";
 
 export interface Category {
@@ -47,18 +44,6 @@ export const categories: Category[] = [
     },
   },
 
-  {
-    icon: ProductivityIcon,
-    title: "Productivity",
-    desc: "How I get things done",
-    slug: "productivity",
-    style: {
-      container: "bg-green-50 shadow-green-100",
-      title: "text-green-500",
-      desc: "text-green-900",
-      themeColor: "#f2fdf5",
-    },
-  },
   {
     icon: PersonalDevelopmentIcon,
     title: "Personal Development",
