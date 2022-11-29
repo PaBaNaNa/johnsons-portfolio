@@ -1,4 +1,3 @@
-import backgroundImage from "/webb-pattern.png";
 import type { FunctionalComponent, FunctionComponent, JSX } from "preact";
 import { useState } from "preact/hooks";
 import clsx from "clsx";
@@ -70,10 +69,7 @@ const CallToAction: FunctionalComponent = () => {
   return (
     <section id="newsletter" aria-label="Newsletter">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div
-          style={`background-image: url(${backgroundImage})`}
-          className="bg-repeat rounded-2xl shadow-lg px-4 md:px-6 py-8 md:py-12 border-2 border-primary-100"
-        >
+        <div className="bg-repeat rounded-2xl shadow-lg px-4 md:px-6 py-8 md:py-12 border-2 border-primary-100">
           <div className="relative mx-auto grid max-w-2xl grid-cols-1 gap-x-32 gap-y-14 xl:max-w-none xl:grid-cols-2">
             <div>
               <p className="font-display text-4xl font-medium tracking-tighter text-primary-900 sm:text-5xl">
