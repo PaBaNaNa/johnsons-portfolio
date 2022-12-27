@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/mdx': ^0.12.0
   '@astrojs/netlify': ^1.1.0
   '@astrojs/preact': ^1.2.0
-  '@astrojs/rss': ^1.0.2
+  '@astrojs/rss': ^2.0.0
   '@astrojs/sitemap': ^1.0.0
   '@astrojs/tailwind': ^2.0.2
   '@netlify/functions': ^1.3.0
@@ -40,7 +40,7 @@ dependencies:
   '@astrojs/mdx': 0.12.0_rollup@3.5.0
   '@astrojs/netlify': 1.1.0
   '@astrojs/preact': 1.2.0_preact@10.11.2
-  '@astrojs/rss': 1.0.2
+  '@astrojs/rss': 2.0.0
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.0.2_tailwindcss@3.1.8
   '@netlify/functions': 1.3.0
@@ -214,8 +214,8 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/rss/1.0.2:
-    resolution: {integrity: sha512-WPMW5a3D+nAbuu/i7LANfp1GnVrdnzcsUNrR7o8IvPJXJMjVGtDqdUqNDj20Rj3rwcWbOL2KVvGPMjCqx0tRWQ==}
+  /@astrojs/rss/2.0.0:
+    resolution: {integrity: sha512-qXsmyq2HhnKRA85US6GLelT47VLhdtS0bNq88umqfB2uneB9vWHSLnOJjhN9rv0mUSQjsFYytF4IEznfmNnpkQ==}
     dependencies:
       fast-xml-parser: 4.0.11
     dev: false
@@ -8535,6 +8535,7 @@ packages:
   /ms/2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
+
   /msw/0.49.1_typescript@4.9.3:
     resolution: {integrity: sha512-JpIIq4P65ofj0HVmDMkJuRwgP9s5kcdutpZ15evMTb2k91/USB7IKWRLV9J1Mzc3OqTdwNj4RwtOWJ5y/FulQQ==}
     engines: {node: '>=14'}
